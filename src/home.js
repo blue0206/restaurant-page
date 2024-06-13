@@ -5,18 +5,14 @@ export default function content()
     //Attach intro
     const intro = document.createElement('div');
     intro.classList.add('intro');
-    intro.textContent = `lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas 
-            blandit in purus sit amet auctor. Donec laoreet lacinia
-            augue, sit amet placerat risus facilisis a. Praesent interdum
-             scelerisque augue, id facilisis urna ornare eget. Donec ut
-            pharetra ipsum, laoreet euismod mi. Pellentesque et leo id leo 
-            elementum suscipit consequat in turpis. Praesent
-            imperdiet nulla nulla, vel condimentum sem malesuada quis. Nam dictum 
-            neque non mi malesuada, sit amet mattis arcu
-            feugiat. Maecenas quis justo vitae est rhoncus aliquam vel id mauris. 
-            Ut vel tempus arcu, posuere congue nunc. Nullam euismod
-            tellus dictum, auctor nisi ac, ultrices urna. In hac habitasse platea 
-            dictumst.`
+    intro.textContent = (
+        `Welcome to Blue and Sakura's Veggie Haven, where Japanese culinary artistry meets 
+        vegetarian innovation. Discover a sanctuary of flavors inspired by the serene beauty 
+        of sakura blossoms and the calming depths of ocean blues. Located in the heart of Tokyo, 
+        our restaurant invites you to indulge in a menu crafted with care, offering a harmonious 
+        blend of tradition and creativity. Join us for an unforgettable dining experience where 
+        every dish tells a story of passion and dedication to exquisite vegetarian cuisine.`  
+    );
     homeContent.appendChild(intro);
 
 
