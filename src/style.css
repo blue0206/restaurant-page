@@ -45,3 +45,14 @@ main {
 footer {
 	grid-area: footer;
 }
+
+/* Footer Styling */
+footer > div {
+	display: flex;
+	justify-content: center;
+	gap: 8px;
+}
+
+footer > div > a {
+	display: flex;
+}
