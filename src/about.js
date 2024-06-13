@@ -56,11 +56,11 @@ export default function content()
 
     const icon = document.createElement('img');
     icon.src = "";
-    icon.alt = "Github";
+    icon.alt = "Github Repository";
     contact.appendChild(icon);
 
     const link = document.createElement('a');
-    link.href = "https://github.com/blue0206";
+    link.href = "https://github.com/blue0206/restaurant-page";
     link.textContent = "blue0206";
     contact.appendChild(link);
     aboutContent.appendChild(contact);
