@@ -7,7 +7,7 @@ import imageDish5 from "./images/dish5.jpg";
 class Dish
 {
     dish = document.createElement('div');
-    #name = document.createElement('h3');
+    #name = document.createElement('h2');
     #image = document.createElement('img');
     #description = document.createElement('div');
 
