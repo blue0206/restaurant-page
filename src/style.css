@@ -24,3 +24,24 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
 	isolation: isolate;
 }
+
+/* Styling */
+body {
+	display: grid;
+	grid-template: minmax(auto, 150px) 1fr minmax(auto, 120px) / 1fr min(65ch, 100%) 1fr;
+	grid-template-areas: 'header header header'
+							'. main .'
+							'footer footer footer';
+}
+
+header {
+	grid-area: header;
+}
+
+main {
+	grid-area: main;
+}
+
+footer {
+	grid-area: footer;
+}
