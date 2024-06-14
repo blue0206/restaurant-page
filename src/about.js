@@ -1,6 +1,7 @@
 export default function content()
 {
     const aboutContent = document.createElement('div');
+    aboutContent.classList.add('about-content');
     
     
     //Attach Intro
