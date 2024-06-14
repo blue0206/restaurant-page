@@ -205,7 +205,18 @@ nav > button {
 	gap: 16px;
 }
 
-.contact > img {
+.contact > a {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 8px;
+
+	text-decoration: none;
+	color: dodgerblue;
+}
+
+.contact  img {
 	height: 1em;
 	aspect-ratio: 1 / 1;
 }
