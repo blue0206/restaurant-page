@@ -1,6 +1,7 @@
 export default function content()
 {
     const homeContent = document.createElement('div');
+    homeContent.classList.add('home-content');
 
     //Attach intro
     const intro = document.createElement('div');

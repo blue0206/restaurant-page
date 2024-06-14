@@ -66,6 +66,24 @@ nav {
 	grid-area: nav;
 }
 
+/* Home Styling */
+.home-content {
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+	gap: 16px;
+}
+
+.opening-hours {
+	display: grid;
+	gap: 16px;
+}
+
+.location {
+	display: grid;
+	grid-template-rows: auto 1fr;
+	gap: 16px;
+}
+
 /* Footer Styling */
 footer > div {
 	display: flex;
