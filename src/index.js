@@ -1,7 +1,8 @@
+import './style.css';
 import home from './home.js';
 import menu from './menu.js';
 import about from './about.js';
-import './style.css';
+import footerIconSrc from './images/github-mark-white.svg';
 
 const content = document.querySelector('#content');
 content.appendChild(home());
@@ -25,3 +26,6 @@ nav.addEventListener('click', (evnt) => {
             break;
     }
 });
+
+const footerIcon = document.querySelector('footer a > img');
+footerIcon.src = footerIconSrc;
