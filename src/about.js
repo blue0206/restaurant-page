@@ -1,3 +1,5 @@
+import iconSrc from './images/github-mark.svg';
+
 export default function content()
 {
     const aboutContent = document.createElement('div');
@@ -56,7 +58,7 @@ export default function content()
     contact.appendChild(contactHeading);
 
     const icon = document.createElement('img');
-    icon.src = "";
+    icon.src = iconSrc;
     icon.alt = "Github Repository";
     contact.appendChild(icon);
 
