@@ -60,11 +60,11 @@ export default function content()
     const icon = document.createElement('img');
     icon.src = iconSrc;
     icon.alt = "Github Repository";
-    contact.appendChild(icon);
 
     const link = document.createElement('a');
     link.href = "https://github.com/blue0206/restaurant-page";
-    link.textContent = "blue0206";
+    link.textContent = "Blue & Sakura's Veggie Haven Repository";
+    link.appendChild(icon);
     contact.appendChild(link);
     aboutContent.appendChild(contact);
 
