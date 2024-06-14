@@ -132,6 +132,11 @@ nav {
 }
 
 /* Footer Styling */
+footer {
+	display: grid;
+	place-content: center;
+}
+
 footer > div {
 	display: flex;
 	justify-content: center;
