@@ -113,6 +113,24 @@ nav {
 	grid-area: description;
 }
 
+/* About Styling */
+.about-content {
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+	gap: 16px;
+}
+
+.about-intro, .story {
+	display: grid;
+	grid-template-rows: auto 1fr;
+	gap: 16px;
+}
+
+.contact > img {
+	height: 1em;
+	aspect-ratio: 1 / 1;
+}
+
 /* Footer Styling */
 footer > div {
 	display: flex;
