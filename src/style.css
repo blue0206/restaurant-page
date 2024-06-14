@@ -84,6 +84,35 @@ nav {
 	gap: 16px;
 }
 
+/* Menu Styling */
+.dish-list {
+	display: grid;
+	grid-template-rows: repeat(5, 1fr);
+	gap: 32px;
+}
+
+.dish-list > div {
+	display: grid;
+	grid-template-rows: auto 350px 1fr;
+	grid-template-areas: 'h2' 'img' 'description';
+	gap: 16px;
+}
+
+.dish-list > div > h2 {
+	grid-area: h2;
+}
+
+.dish-list > div > img {
+	grid-area: img;
+
+	height: 100%;
+	width: 100%;
+}
+
+.dish-list > div > div {
+	grid-area: description;
+}
+
 /* Footer Styling */
 footer > div {
 	display: flex;
